@@ -1,9 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+  min-height: 800px;
+  text-align: center;
+}
+
+.cards {
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(600px, 100%), 1fr));
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2>Responsive Three Column Layout</h2>
+<div class="cards">
+  <div class="card">ONE</div>
+  <div class="card">TWO</div>
+  <div class="card">THREE</div>
+  <div class="card">FOUR</div>
+  <div class="card">FIVE</div>
+  <div class="card">SIX</div>
+  <div class="card">SEVEN</div>
+  <div class="card">EIGHT</div>
+  <div class="card">NINE</div>
+  <div class="card">TEN</div>
+  <div class="card">ELEVEN</div>
+  <div class="card">TWELVE</div>
+</div>
+
+</div>
+</body>
 </html>
